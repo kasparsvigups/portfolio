@@ -1,0 +1,32 @@
+body {
+    background: #FFFFFF;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 1163px;
+    height: 493px;
+    margin-top: 207px;
+    margin-bottom: 211px;
+    margin-left: 119px;
+    margin-right: 119px;
+}
+.navigation a svg {
+    fill:#979797;
+}
+.navigation a  {
+    text-decoration: none;
+}
+.navigation .contact a {
+    display: block;
+    background: rgb(185, 216, 226);
+}
+.navigation .biography a {
+    display: block;
+    background: rgb(230, 154, 154);
+}
+.navigation .portfolio a {
+    display: block;
+    background: yellow;
+}
+
