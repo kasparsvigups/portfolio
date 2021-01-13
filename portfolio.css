@@ -1,0 +1,60 @@
+/* -->Top Menu <--*/
+@import url("fonts.css"); 
+body {
+    background: rgb(163, 158, 158);
+}
+.top_menu nav {
+    width: 1440px;
+    height: 75px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:  #494949;
+   }
+   .top_menu nav span {
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+   }
+.top_menu nav a svg {
+    width: 40px;
+    height: 40px;
+}
+.top_menu nav a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+/* -->Page<--*/
+.list  {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.list div {
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    background:#494949;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: Gruppo;
+    color: white;
+    text-align: center;
+}
+.list div:hover {
+    background:#8b8a8a;
+}
+.list .piemers div {
+    vertical-align: center;
+}
+.list .piemers a {
+    text-decoration: none;
+    color: white;
+}
+

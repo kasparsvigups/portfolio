@@ -1,8 +1,32 @@
+/* -->Top Menu <--*/
 @import url("fonts.css"); 
 
-/* -->First Page <--*/
+.top_menu nav {
+    width: 1440px;
+    height: 75px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:  #494949;
+   }
+   .top_menu nav span {
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+   }
+.top_menu nav a svg {
+    width: 40px;
+    height: 40px;
+}
+.top_menu nav a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+/* -->Page<--*/
 body {
-    background: rgb(163, 158, 158);
+    background: rgb(163, 158, 158);  
 }
 .navigation nav a {
     text-decoration: none;
@@ -10,11 +34,11 @@ body {
     font-family: Gruppo;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 30px;
+    line-height: 30px;
     color:white;
 }
-.navigation .aboutme {
+.navigation .linkedin {
     position: absolute;
     width: 339.12px;
     height: 138.11px;
@@ -23,10 +47,10 @@ body {
     background: #494949;
     transform: rotate(-43.63deg)
     }
-.navigation .aboutme:hover {
+.navigation .linkedin:hover {
     background:#8b8a8a;
 }
-.navigation .portfolio {
+.navigation .github {
     position: absolute;
     width: 339.12px;
     height: 138.11px;
@@ -35,10 +59,10 @@ body {
     background: #494949;
     transform: rotate(-43.63deg)
     }
-.navigation .portfolio:hover {
+.navigation .github:hover {
     background:#8b8a8a;
 }
-.navigation .contacts {
+.navigation .email {
     position: absolute;
     width: 339.12px;
     height: 138.11px;
@@ -47,6 +71,6 @@ body {
     background: #494949;
     transform: rotate(-43.63deg)
     }
-.navigation .contacts:hover {
+.navigation .email:hover {
     background:#8b8a8a;
 }
