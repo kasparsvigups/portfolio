@@ -16,6 +16,7 @@ body {
     
 }
 .navigation .aboutme {
+    text-align: center;
     box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
@@ -25,9 +26,10 @@ body {
     background: #494949;
     transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     }
 .navigation .portfolio {
+    text-align: center;
     box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
@@ -37,7 +39,7 @@ body {
     background: #494949;
     transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     }
 .navigation .contacts {
     box-shadow: 10px 10px 10px  #494949;
@@ -49,7 +51,7 @@ body {
     background: #494949;
     transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
 }
 
 @keyframes animation {

@@ -29,17 +29,15 @@ body {
     background: rgb(163, 158, 158); 
 }
 .paragraf {
-    box-shadow: 15px 15px 15px  #494949;
+    box-shadow: 10px 10px 10px  #494949;
     width: 1014px;
     height: 721px;
     left: 39px;
     top: 124px;
     background: #494949;
-    border: 6px solid #494949;
     margin-top: 50px;
     margin-left: 40px;
 }
-
 h1 {
     font-family: Gruppo;
     font-style: normal;
@@ -67,8 +65,31 @@ p {
     color: #F2F2F2;
     margin-left: 46px;
 }
-.paragraf .second div {
+
+.paragraf div {
     display:inline-block;
     vertical-align: center;
+    animation: moveleft 3s;
+}
+@keyframes moveleft {
+    from {left: -600px; margin-top: 500px;}
+    to {left: 40px;}
 }
 
+/*
+.paragraf .first {
+    position: absolute;
+    animation: moveleft 6s;
+}
+@keyframes moveleft {
+    from {left: -600px; margin-top: 500px;}
+    to {left: 40px;}
+}
+.paragraf .second {
+    position: absolute;
+    animation: moveright 6s;
+}
+@keyframes moveright {
+    from {right: -600px;}
+    to {right:1020px;}
+}*/

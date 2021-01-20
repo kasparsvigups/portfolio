@@ -39,6 +39,7 @@ body {
     color:white;
 }
 .navigation .linkedin {
+    text-align: center;
     box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
@@ -46,14 +47,12 @@ body {
     margin-top: 320px;
     margin-left: 209px;
     background: #494949;
-    transform: rotate(-43.63deg);
+    transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 1s;
-    }
-/*.navigation .linkedin:hover {
-    background:#8b8a8a;
-}*/
+    animation-duration: 1.5s;
+    }    
 .navigation .github {
+    text-align: center;
     box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
@@ -61,14 +60,12 @@ body {
     margin-top: 320px;
     margin-left: 550px;
     background: #494949;
-    transform: rotate(-43.63deg);
+    transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     }
-/*.navigation .github:hover {
-    background:#8b8a8a;
-}*/
 .navigation .email {
+    text-align: center;
     box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
@@ -76,9 +73,9 @@ body {
     margin-top: 320px;
     margin-left: 890px;
     background: #494949;
-    transform: rotate(-43.63deg);
+    transform: rotate(-30deg);
     animation-name: animation;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     }
     @keyframes animation {
         0% {background-color:  rgb(163, 158, 158);}
@@ -86,6 +83,3 @@ body {
         50% {background-color:  #8b8a8a;}
         100% {background-color: #494949;}
     }
-/*.navigation .email:hover {
-    background:#8b8a8a;
-}8/

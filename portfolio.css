@@ -28,12 +28,11 @@ body {
 }
 /* -->Page<--*/
 .list  {
+    margin-left: 40px;
     width: 500px;
     height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 55% 55% 55% 55% 55%;
     }
 .list div {
     box-shadow: 10px 10px 10px  #494949;
@@ -48,7 +47,7 @@ body {
     color: white;
     text-align: center;
 }
-.list .piemers {
+.list .portfolio  {
     animation-name: animation;
     animation-duration: 1s; 
 }
@@ -72,7 +71,7 @@ body {
     animation-name: animation;
     animation-duration: 3.50s; 
 }
-.list .piemers a {
+.list a {
     text-decoration: none;
     color: white;
 }
