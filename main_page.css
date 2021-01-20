@@ -13,40 +13,48 @@ body {
     font-size: 24px;
     line-height: 23px;
     color:white;
+    
 }
 .navigation .aboutme {
+    box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
     height: 138.11px;
     margin-top: 320px;
     margin-left: 209px;
     background: #494949;
-    transform: rotate(-43.63deg)
+    transform: rotate(-30deg);
+    animation-name: animation;
+    animation-duration: 1s;
     }
-.navigation .aboutme:hover {
-    background:#8b8a8a;
-}
 .navigation .portfolio {
+    box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
     height: 138.11px;
     margin-top: 320px;
     margin-left: 550px;
     background: #494949;
-    transform: rotate(-43.63deg)
+    transform: rotate(-30deg);
+    animation-name: animation;
+    animation-duration: 1.5s;
     }
-.navigation .portfolio:hover {
-    background:#8b8a8a;
-}
 .navigation .contacts {
+    box-shadow: 10px 10px 10px  #494949;
     position: absolute;
     width: 339.12px;
     height: 138.11px;
     margin-top: 320px;
     margin-left: 890px;
     background: #494949;
-    transform: rotate(-43.63deg)
-    }
-.navigation .contacts:hover {
-    background:#8b8a8a;
+    transform: rotate(-30deg);
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+@keyframes animation {
+    0% {background-color:  rgb(163, 158, 158);}
+    25% {background-color:  #929292;}
+    50% {background-color:  #8b8a8a;}
+    100% {background-color: #494949;}
 }

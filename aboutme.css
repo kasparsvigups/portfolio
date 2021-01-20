@@ -29,6 +29,7 @@ body {
     background: rgb(163, 158, 158); 
 }
 .paragraf {
+    box-shadow: 15px 15px 15px  #494949;
     width: 1014px;
     height: 721px;
     left: 39px;

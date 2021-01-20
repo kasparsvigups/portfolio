@@ -31,11 +31,12 @@ body {
     width: 500px;
     height: 500px;
     display: flex;
-    align-content: space-between;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
     }
 .list div {
+    box-shadow: 10px 10px 10px  #494949;
     margin-top: 50px;
     margin-left: 15px;
     width: 200px;
@@ -47,14 +48,37 @@ body {
     color: white;
     text-align: center;
 }
-.list div:hover {
-    background:#8b8a8a;
+.list .piemers {
+    animation-name: animation;
+    animation-duration: 1s; 
 }
-.list .piemers div {
-    vertical-align: center;
+.list .piemers2 {
+    animation-name: animation;
+    animation-duration: 1.50s; 
+}
+.list .piemers3 {
+    animation-name: animation;
+    animation-duration: 2s; 
+}
+.list .piemers4 {
+    animation-name: animation;
+    animation-duration: 2.5s; 
+}
+.list .piemers5 {
+    animation-name: animation;
+    animation-duration: 3s; 
+}
+.list .piemers6 {
+    animation-name: animation;
+    animation-duration: 3.50s; 
 }
 .list .piemers a {
     text-decoration: none;
     color: white;
 }
-
+@keyframes animation {
+    0% {background-color:  rgb(163, 158, 158);}
+    25% {background-color:  #929292;}
+    50% {background-color:  #8b8a8a;}
+    100% {background-color: #494949;}
+}
