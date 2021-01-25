@@ -1,0 +1,212 @@
+/* --> Font <--*/
+
+@import url("fonts.css"); 
+
+body {
+    background: rgb(163, 158, 158);
+}
+@keyframes animation {
+    0% {background-color:  rgb(163, 158, 158);}
+    25% {background-color:  #929292;}
+    50% {background-color:  #8b8a8a;}
+    100% {background-color: #494949;}
+}
+/* -->Top Menu <--*/
+.top_menu nav {
+    width: 1440px;
+    height: 75px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:  #494949;
+}
+.top_menu nav span {
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+}
+.top_menu nav a svg {
+    width: 40px;
+    height: 40px;
+}
+.top_menu nav a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+/* --> Main Page/Contacts list style <--- */
+
+.navigation nav a {
+    width: 225.11px;
+    height: 225.11px;
+    text-decoration: none;
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 23px;
+    color:white;  
+}
+.navigation .nav-list {
+    display:flex;
+    padding: 100px 0;
+    justify-content:center;
+    align-items: stretch;
+    margin-top: 100px;  
+} 
+.navigation .nav-list a { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    box-shadow: 10px 10px 10px  #494949;
+    height: 350px;
+    background: #494949;
+    transform: rotate(-35deg);
+}
+/* --> Main Page <--- */
+
+.navigation .nav-list .aboutme {
+    animation-name: animation;
+    animation-duration: 2s;
+}
+.navigation .nav-list .portfolio {
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+.navigation .nav-list .contacts {
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+/* --> About Me <--- */
+
+.paragraf {
+    box-shadow: 10px 10px 10px  #494949;
+    width: 1014px;
+    height: 721px;
+    left: 39px;
+    top: 124px;
+    background: #494949;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+h1 {
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 62px;
+    color: #F2F2F2;
+    margin-left: 25px;
+}
+h2 {
+    font-family: Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 46px;
+    color: #F2F2F2;
+    margin-left: 46px;
+}
+p {
+    font-family:Gruppo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+    margin-left: 46px;
+}
+.paragraf div {
+    display:inline-block;
+    vertical-align: center;
+    animation: moveleft 3s;
+}
+@keyframes moveleft {
+    from {left: -600px; margin-top: 500px;}
+    to {left: 40px;}
+}
+/*
+.paragraf .first {
+    position: absolute;
+    animation: moveleft 6s;
+}
+@keyframes moveleft {
+    from {left: -600px; margin-top: 500px;}
+    to {left: 40px;}
+}
+.paragraf .second {
+    position: absolute;
+    animation: moveright 6s;
+}
+@keyframes moveright {
+    from {right: -600px;}
+    to {right:1020px;}
+}*/
+
+/* --> Portfolio <--- */
+
+.list a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: Gruppo;
+}
+.list nav {
+    display:flex;
+    padding: 50px 0;
+    justify-content:start;
+    align-items: flex-start;
+    margin-top: 100px;
+}  
+.list nav a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px  #494949;
+    background: #494949;
+    margin: 15px;
+    width: 200px;
+    height: 200px;  
+}
+.list .portfolio  {
+    animation-name: animation;
+    animation-duration: 1s; 
+}
+.list .piemers2 {
+    animation-name: animation;
+    animation-duration: 1.50s; 
+}
+.list .piemers3 {
+    animation-name: animation;
+    animation-duration: 2s; 
+}
+.list .piemers4 {
+    animation-name: animation;
+    animation-duration: 2.5s; 
+}
+.list .piemers5 {
+    animation-name: animation;
+    animation-duration: 3s; 
+}
+.list .piemers6 {
+    animation-name: animation;
+    animation-duration: 3.50s; 
+}
+/* --> Contacts <--- */
+
+.navigation .linkedin {
+    animation-name: animation;
+    animation-duration: 2s;
+    }    
+.navigation .github {
+    animation-name: animation;
+    animation-duration: 2.5s;
+    }
+.navigation .email {
+    animation-name: animation;
+    animation-duration: 3s;
+    }
